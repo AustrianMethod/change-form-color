@@ -6,26 +6,41 @@ input {
     width: 100%;
 }
 
+span {
+    white-space: 'pre-wrap';
+}
+
 .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
 }
 
 .formWrapper {
-    width: 100px;
+    width: 150px;
 }
 
 .form {
-    width: 100px;
+    width: 150px;
+    margin-bottom: 5px;
 }
 
 input {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
     height: 40px;
 } 
 
 .textWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    background: #546;
     height: 40px;
+    background: #1D2834;
+    color: #fff;
 }
 
