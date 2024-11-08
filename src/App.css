@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+input {
+    width: 100%;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+}
+
+.formWrapper {
+    width: 100px;
+}
+
+.form {
+    width: 100px;
+}
+
+input {
+    height: 40px;
+} 
+
+.textWrapper {
+    width: 100%;
+    background: #546;
+    height: 40px;
+}
+
